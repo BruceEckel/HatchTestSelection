@@ -19,3 +19,16 @@ python_files = *.py  # Discover tests in every python file
 # Only consider a function to be a test if it ends with '_check'
 python_functions = *_check
 ```
+
+## Installation
+
+To use this you must first install [Hatch](https://hatch.pypa.io/latest/install/). The instructions are at that link, but here they are in summary:
+
+1. I found it easiest to use [Pipx](https://github.com/pypa/pipx) to install
+   Hatch: \
+  `pipx install hatch`
+
+2. To start a session, run `hatch shell`. The first time you do this it will
+   download and install all the necessary packages in a virtual environment.
+
+3. Run `pytest` to see the results.
