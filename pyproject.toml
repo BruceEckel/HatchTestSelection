@@ -32,7 +32,7 @@ Issues = "https://github.com/unknown/hatchtestselection/issues"
 Source = "https://github.com/unknown/hatchtestselection"
 
 [tool.hatch.version]
-path = "hatchtestselection/__about__.py"
+path = "__about__.py"
 
 [tool.hatch.envs.default]
 dependencies = [
