@@ -22,7 +22,7 @@ python_functions = *_check
 
 ## Installation
 
-To use this you must first install [Hatch](https://hatch.pypa.io/latest/install/). The instructions are at that link, but here they are in summary:
+To use this you must first install Hatch. The [instructions](https://hatch.pypa.io/latest/install/) are summarized here:
 
 1. I found it easiest to use [Pipx](https://github.com/pypa/pipx) to install
    Hatch: \
